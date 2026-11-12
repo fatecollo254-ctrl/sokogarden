@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg bg-success mb-1 sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
-    <img src="public/images/image.png" alt="" width={90} />
+    <img src="/images/image.png" alt="" width={90} />
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

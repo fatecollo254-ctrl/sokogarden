@@ -5,22 +5,22 @@ const Carousel = () => {
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="public/images/T-Shirts.png" class="d-block w-100" alt="..." />
+          <img src="/images/T-Shirts.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="public/images/Pants.png" class="d-block w-100" alt="..." />
+          <img src="/images/Pants.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="public/images/Joggers.png" class="d-block w-100" alt="..." />
+          <img src="/images/Joggers.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="public/images/Hoodies.png" class="d-block w-100" alt="..." />
+          <img src="/images/Hoodies.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="public/images/New Arrivals.png" class="d-block w-100" alt="..." />
+          <img src="/images/New Arrivals.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="public/images/Complete Outfits.png" class="d-block w-100" alt="..." />
+          <img src="/images/Complete Outfits.png" class="d-block w-100" alt="..." />
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

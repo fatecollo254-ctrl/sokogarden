@@ -17,14 +17,14 @@ const Footer = () => {
         <div className="col-md-4">
             <h2 className='text-white'>Stay Connected</h2>
             <a href="https://facebook.com">
-                <img src="public/images/fb.png" height={100} width={100} alt="" />
+                <img src="/images/fb.png" height={100} width={100} alt="" />
             </a>
             <a href='https://instagram.com'>
-                <img src="public/images/instagram.jpeg" width={100} alt="" />
+                <img src="/images/instagram.jpeg" width={100} alt="" />
              </a>
             <a href='https://x.com'>
               
-                <img src="public/images/x.png" width={100} alt="" />
+                <img src="/images/x.png" width={100} alt="" />
              </a>
             
 
