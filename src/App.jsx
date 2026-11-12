@@ -7,20 +7,16 @@ import Addproducts from './components/Addproducts';
 import Getproducts from './components/Getproducts';
 import Mpesapayment from './components/Mpesapayment';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 const App = () =>{
   return(
     <BrowserRouter>
     {/* navigation goes here */}
-    <nav className='text-center'>
-     <Link to="/" className='btn btn-success m-1'>Get products</Link>
-     <Link to="/signup" className='btn btn-success m-1'>Signup</Link>
-     <Link to="/signin" className='btn btn-success m-1'>Signin</Link>
-     <Link to="/addproducts" className='btn btn-success m-1'>Addproducts</Link>
-     
-     
+     <Navbar/>
      
 
-   </nav>
+ 
    {/* Routes goes here */}
     <Routes>
         <Route path="/" element={<Getproducts />} />
@@ -31,6 +27,8 @@ const App = () =>{
 
 
     </Routes>
+    {/* footer goes here */}
+     <Footer/>
     </BrowserRouter>
   )
 }

@@ -39,7 +39,7 @@ try {
         <img src={imagepath +singleproduct.product_photo} height={300} width={500}/>
         <h5>{singleproduct.product_name}</h5>
         <p>{singleproduct.product_description}</p><br />
-    <b className='text-warning'> ksh {singleproduct.product_cost}</b>
+    <b className='text-dark'> ksh {singleproduct.product_cost}</b>
     <br /> 
 
     <button className='btn btn-success text-light w-100'>{singleproduct.product_category}</button><br />
