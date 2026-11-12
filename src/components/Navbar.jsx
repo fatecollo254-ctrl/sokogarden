@@ -1,21 +1,21 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-success mb-1 sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">
+    <Link class="navbar-brand" href="/">
     <img src="/images/image.png" alt="" width={90} />
-    </a>
+    </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link text- active" aria-current="page" href="/">Home</a>
-        <a class="nav-link" href="/addproducts">Add products</a>
-        <a class="nav-link" href="/signin">Signin</a>
-        <a class="nav-link" href="/signup">Signup</a>
+        <Link class="nav-link text- active" aria-current="page" href="/">Home</Link>
+        <Link class="nav-link" href="/addproducts">Add products</Link>
+        <Link class="nav-link" href="/signin">Signin</Link>
+        <Link  class="nav-link" href="/signup">Signup</Link>
 
         
       </div>
