@@ -9,6 +9,7 @@ import Mpesapayment from './components/Mpesapayment';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Videos from './components/Videos';
 const App = () =>{
   return(
     <BrowserRouter>
@@ -24,6 +25,8 @@ const App = () =>{
         <Route path="/signin" element={<Signin />} />
         <Route path="/addproducts" element={<Addproducts />} />
         <Route path="/Mpesapayment" element={<Mpesapayment />} />
+        <Route path="/Videos" element={<Videos />} />
+
 
 
     </Routes>

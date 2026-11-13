@@ -16,6 +16,8 @@ const Navbar = () => {
         <a class="nav-link" href="/addproducts">Add products</a>
         <a class="nav-link" href="/signin">Signin</a>
         <a class="nav-link" href="/signup">Signup</a>
+        <a class="nav-link" href="/Videos" className='nav-link' >Videos</a>
+
 
         
       </div>

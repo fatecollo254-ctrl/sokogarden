@@ -26,6 +26,7 @@ const Footer = () => {
               
                 <img src="/images/x.png" width={100} alt="" />
              </a>
+                <h1 className='text-white'>@Colloprivv</h1>
             
 
 
